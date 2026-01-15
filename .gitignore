@@ -1,21 +1,11 @@
-# Environment files (API keys, secrets)
 .env
-credentials/
-
-# Python cache
+data\
+credentials\
+service_account.json
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+__pycache__
 
-# Data folders
-data/raw/
-data/processed/
-
-# VS Code settings
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
+venv
+*.json
+*.pdf
+*.csv

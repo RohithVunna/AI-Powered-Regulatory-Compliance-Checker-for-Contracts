@@ -1,47 +1,11 @@
-s
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-.venv
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Environment variables
 .env
-.env.local
-
-# Logs
-*.log
-npm-debug.log*
-
-# Build outputs
-dist/
-build/
-out/
-
-# OS
-Thumbs.db
-.DS_Store
-
-# Temporary files
-*.tmp
-*.temp
-
+data\
+credentials\
+service_account.json
+__pycache__/
 __pycache__
-data/
-logs/
-credentials/
+
+venv
 *.json
 *.pdf
+*.csv

@@ -1,0 +1,20 @@
+{
+  "compliance_report": {
+    "total_clauses_analyzed": 28,
+    "total_issues_detected": 1,
+    "issues": [
+      {
+        "regulation": "General",
+        "issue_type": "high_risk_clause",
+        "clause_id": "5.2",
+        "clause_type": "Unknown",
+        "severity": "high",
+        "explanation": "Storing data on servers outside India raises significant concerns regarding data sovereignty, security, and compliance with regulations such as GDPR and India's data protection laws, potentially leading to legal and regulatory issues.",
+        "source": "risk_engine"
+      }
+    ]
+  },
+  "amended_clauses": [
+    "5.2"
+  ]
+}
